@@ -1,0 +1,20 @@
+{
+  "background": {
+    "scripts": ["event-page.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["injected.js"]
+    }
+  ],
+  "description": "GhitaTM.",
+  "devtools_page": "devtools.html",
+  "icons": {
+    "256": "favicon.png"
+  },
+  "manifest_version": 2,
+  "name": "GhitaTM",
+  "version": "1.1"
+}
